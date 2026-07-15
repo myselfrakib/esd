@@ -24,7 +24,7 @@
   <header class="app-header">
     <div class="brand">
       <i class="fa-solid fa-city logo-icon"></i>
-      <span class="brand-text">Rakib sk <span class="accent-text">Esd project</span></span>
+      <span class="brand-text">EcoUrban <span class="accent-text">SDG-11</span></span>
     </div>
     <div class="nav-controls">
       <button id="prev-btn" class="control-btn" title="Previous Slide (Left Arrow / Backspace)">
@@ -52,15 +52,22 @@
     <div class="slides-container" id="slides-container">
 
       <!-- SLIDE 1: Title Slide -->
-      <section class="slide active" id="slide-1" data-layout="title">
-        <div class="slide-content glass-panel title-layout">
-          <div class="badge"><i class="fa-solid fa-leaf"></i> SDG 11: Sustainable Development Goal</div>
-          <h1 class="main-title">Sustainable Cities & Communities</h1>
-          <h2 class="sub-title">Shaping the Urban Future through Innovation, Ecology, and Equity</h2>
-          <div class="divider"></div>
-          <div class="presentation-meta">
-            <span class="meta-item"><i class="fa-regular fa-calendar"></i> July 2026</span>
-            <span class="meta-item"><i class="fa-solid fa-globe"></i> Global Development Agenda</span>
+      <section class="slide active" id="slide-1" data-layout="split">
+        <div class="slide-content glass-panel split-layout">
+          <div class="left-col">
+            <div class="badge"><i class="fa-solid fa-leaf"></i> SDG 11: Sustainable Development Goal</div>
+            <h1 class="main-title">Sustainable Cities & Communities</h1>
+            <h2 class="sub-title">Shaping the Urban Future through Innovation, Ecology, and Equity</h2>
+            <div class="divider"></div>
+            <div class="presentation-meta">
+              <span class="meta-item"><i class="fa-regular fa-calendar"></i> July 2026</span>
+              <span class="meta-item"><i class="fa-solid fa-globe"></i> Global Agenda</span>
+            </div>
+          </div>
+          <div class="right-col">
+            <div class="slide-image-container">
+              <img src="images/slide1_hero.png" class="slide-image" alt="Futuristic Sustainable City">
+            </div>
           </div>
         </div>
       </section>
@@ -73,33 +80,41 @@
             <h2 class="slide-title">The Urban Surge</h2>
             <p class="slide-lead">Today, more than half of the world's population lives in cities. By 2050, that figure is projected to rise to nearly 70%.</p>
             <p class="slide-text">Cities are the engines of economic growth, accounting for about 80% of global GDP. However, they also consume over two-thirds of the world's energy and account for more than 70% of global carbon emissions.</p>
+            <div class="horizontal-stats">
+              <div class="stat-card">
+                <span class="stat-number">4.4B</span>
+                <span class="stat-label">People in cities</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">70%</span>
+                <span class="stat-label">Of global CO2</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">60%</span>
+                <span class="stat-label">Urban by 2030</span>
+              </div>
+            </div>
           </div>
-          <div class="right-col stats-grid">
-            <div class="stat-card">
-              <span class="stat-number">4.4B</span>
-              <span class="stat-label">People live in cities today</span>
-            </div>
-            <div class="stat-card">
-              <span class="stat-number">70%</span>
-              <span class="stat-label">Of global CO2 emissions from cities</span>
-            </div>
-            <div class="stat-card">
-              <span class="stat-number">60%</span>
-              <span class="stat-label">Projected urban population by 2030</span>
+          <div class="right-col">
+            <div class="slide-image-container">
+              <img src="images/slide2_urbanization.png" class="slide-image" alt="Urban Skyline Surge">
             </div>
           </div>
         </div>
       </section>
 
       <!-- SLIDE 3: Core Pillars of SDG 11 -->
-      <section class="slide" id="slide-3" data-layout="grid">
-        <div class="slide-content glass-panel grid-layout">
-          <div class="header-area">
+      <section class="slide" id="slide-3" data-layout="split">
+        <div class="slide-content glass-panel split-layout">
+          <div class="left-col">
             <div class="badge"><i class="fa-solid fa-cubes"></i> Strategic Pillars</div>
             <h2 class="slide-title">Core Pillars of Sustainable Urbanism</h2>
             <p class="slide-lead">Achieving SDG 11 requires a holistic approach addressing multiple interconnected systems.</p>
+            <div class="slide-image-container">
+              <img src="images/slide3_pillars.png" class="slide-image" alt="Core Pillars collage">
+            </div>
           </div>
-          <div class="pillars-grid">
+          <div class="right-col pillars-2x2">
             <div class="pillar-card">
               <div class="pillar-icon"><i class="fa-solid fa-house-chimney"></i></div>
               <h3>Housing & Services</h3>
@@ -117,7 +132,7 @@
             </div>
             <div class="pillar-card">
               <div class="pillar-icon"><i class="fa-solid fa-recycle"></i></div>
-              <h3>Circular Resource Flow</h3>
+              <h3>Circular Flow</h3>
               <p>Reducing municipal waste, improving air quality, and supporting localized green economies.</p>
             </div>
           </div>
@@ -136,28 +151,15 @@
               <li><strong>Active Infrastructure:</strong> Protected bike corridors and pedestrianized downtown districts.</li>
               <li><strong>First/Last Mile Solutions:</strong> Scalable micro-mobility schemes and smart ridesharing nodes.</li>
             </ul>
+            <div class="mini-highlights-row">
+              <div class="mini-tag"><i class="fa-solid fa-cloud-sun icon-green"></i> Clean Air</div>
+              <div class="mini-tag"><i class="fa-solid fa-tree icon-green"></i> Public Space</div>
+              <div class="mini-tag"><i class="fa-solid fa-heart-pulse icon-green"></i> Health & Equity</div>
+            </div>
           </div>
-          <div class="right-col highlights-container">
-            <div class="highlight-item">
-              <i class="fa-solid fa-circle-check icon-green"></i>
-              <div>
-                <h4>Reduce Air Pollution</h4>
-                <p>Eradicates tailpipe emissions, directly improving local air quality indices.</p>
-              </div>
-            </div>
-            <div class="highlight-item">
-              <i class="fa-solid fa-circle-check icon-green"></i>
-              <div>
-                <h4>Reclaim Public Space</h4>
-                <p>Replaces parking lots and highways with parks and public plazas.</p>
-              </div>
-            </div>
-            <div class="highlight-item">
-              <i class="fa-solid fa-circle-check icon-green"></i>
-              <div>
-                <h4>Enhance Health & Equity</h4>
-                <p>Encourages active lifestyles and ensures low-cost transport accessibility.</p>
-              </div>
+          <div class="right-col">
+            <div class="slide-image-container">
+              <img src="images/slide4_mobility.png" class="slide-image" alt="Green transit and bikes">
             </div>
           </div>
         </div>
@@ -170,54 +172,70 @@
             <div class="badge"><i class="fa-solid fa-hand-holding-heart"></i> Social Infrastructure</div>
             <h2 class="slide-title">Safe & Affordable Housing</h2>
             <p class="slide-lead">Adequate housing is a fundamental human right. Sustainable cities must accommodate all income levels.</p>
-            <p class="slide-text">Rapid, unplanned urbanization has led to <strong>1 billion people</strong> living in slums and informal settlements today, lacking basic sanitation, clean water, and secure tenure.</p>
-            <div class="accent-callout">
-              <p>"Slum upgrading is not just about brick and mortar; it's about integration, dignity, and economic opportunity."</p>
+            <p class="slide-text">Rapid, unplanned urbanization has led to 1 billion people living in slums and informal settlements today, lacking basic sanitation and secure tenure.</p>
+            <div class="horizontal-cards">
+              <div class="stack-card">
+                <span class="card-badge">Key Focus</span>
+                <h4>Participatory Upgrading</h4>
+                <p>Engaging communities in planning upgrades, ensuring they aren't displaced.</p>
+              </div>
+              <div class="stack-card">
+                <span class="card-badge">Key Focus</span>
+                <h4>Affordable Building Tech</h4>
+                <p>Utilizing local, low-carbon materials and modular building methods.</p>
+              </div>
+              <div class="stack-card">
+                <span class="card-badge">Key Focus</span>
+                <h4>Policy & Land Rights</h4>
+                <p>Implementing progressive zoning and secure land tenure.</p>
+              </div>
             </div>
           </div>
-          <div class="right-col cards-stack">
-            <div class="stack-card">
-              <span class="card-badge">Key Focus</span>
-              <h4>Participatory Upgrading</h4>
-              <p>Engaging communities in planning upgrades, ensuring they aren't displaced from their social fabrics.</p>
+          <div class="right-col">
+            <div class="slide-image-container">
+              <img src="images/slide5_housing.png" class="slide-image" alt="Eco affordable apartments">
             </div>
-            <div class="stack-card">
-              <span class="card-badge">Key Focus</span>
-              <h4>Affordable Building Tech</h4>
-              <p>Utilizing local, low-carbon materials and modular building methods to reduce housing costs.</p>
-            </div>
-            <div class="stack-card">
-              <span class="card-badge">Key Focus</span>
-              <h4>Policy & Land Rights</h4>
-              <p>Implementing progressive zoning and secure land tenure to prevent sudden displacements.</p>
+            <div class="accent-callout">
+              <p>"Slum upgrading is not just about brick and mortar; it's about integration, dignity, and economic opportunity."</p>
             </div>
           </div>
         </div>
       </section>
 
       <!-- SLIDE 6: Climate Resilience & Disaster Prep -->
-      <section class="slide" id="slide-6" data-layout="grid">
-        <div class="slide-content glass-panel grid-layout">
-          <div class="header-area">
+      <section class="slide" id="slide-6" data-layout="split">
+        <div class="slide-content glass-panel split-layout">
+          <div class="left-col">
             <div class="badge"><i class="fa-solid fa-shield-catastrophe"></i> Disaster Resilience</div>
             <h2 class="slide-title">Building Climate-Resilient Cities</h2>
             <p class="slide-lead">As climate change intensifies weather events, cities must shift from reactive recovery to proactive adaptation.</p>
+            <div class="resilience-list">
+              <div class="resilience-list-item">
+                <i class="fa-solid fa-water-ladder res-list-icon"></i>
+                <div>
+                  <h4>Sponge Cities</h4>
+                  <p>Designing porous urban surfaces (bioswales, green roofs, permeable concrete) to absorb stormwater runoff.</p>
+                </div>
+              </div>
+              <div class="resilience-list-item">
+                <i class="fa-solid fa-tower-broadcast res-list-icon"></i>
+                <div>
+                  <h4>Early Warning Systems</h4>
+                  <p>Deploying localized sensors and multi-channel notification networks to alert citizens.</p>
+                </div>
+              </div>
+              <div class="resilience-list-item">
+                <i class="fa-solid fa-bridge res-list-icon"></i>
+                <div>
+                  <h4>Hardened Infrastructure</h4>
+                  <p>Retrofitting seawalls, raising critical utilities, and designing seismic-resistant buildings.</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="resilience-cards-grid">
-            <div class="resilience-card">
-              <i class="fa-solid fa-water-ladder res-icon"></i>
-              <h4>Sponge Cities</h4>
-              <p>Designing porous urban surfaces (bioswales, green roofs, permeable concrete) to absorb stormwater runoff and recharge groundwater.</p>
-            </div>
-            <div class="resilience-card">
-              <i class="fa-solid fa-tower-broadcast res-icon"></i>
-              <h4>Early Warning Systems</h4>
-              <p>Deploying localized sensors and multi-channel notification networks to alert citizens before disaster strikes.</p>
-            </div>
-            <div class="resilience-card">
-              <i class="fa-solid fa-bridge res-icon"></i>
-              <h4>Hardened Infrastructure</h4>
-              <p>Retrofitting seawalls, raising critical utility lines, and designing buildings to withstand seismic and extreme meteorological events.</p>
+          <div class="right-col">
+            <div class="slide-image-container">
+              <img src="images/slide6_resilience.png" class="slide-image" alt="Sponge city rain garden">
             </div>
           </div>
         </div>
@@ -230,38 +248,43 @@
             <div class="badge"><i class="fa-solid fa-rotate"></i> Circular Systems</div>
             <h2 class="slide-title">Zero Waste & Circular Economies</h2>
             <p class="slide-lead">Transforming waste streams into secondary resource streams to reduce urban footprints.</p>
-            <p class="slide-text">Traditional cities follow a linear model: "Take, Make, Dispose". Circular cities aim to design waste out of the system entirely, ensuring nutrients and materials flow back into production cycles.</p>
-            <div class="metric-row">
-              <div class="metric-box">
-                <span class="metric-val">80%</span>
-                <span class="metric-lbl">Of waste is recyclable or compostable</span>
+            <p class="slide-text">Traditional cities follow a linear model: "Take, Make, Dispose". Circular cities aim to design waste out of the system entirely, ensuring nutrients flow back into production cycles.</p>
+            <div class="steps-flow">
+              <div class="step-card">
+                <span class="step-num">1</span>
+                <div>
+                  <h5>Source Separation</h5>
+                  <p>Mandating the separation of organics, dry recyclables, and hazardous wastes at source.</p>
+                </div>
               </div>
-              <div class="metric-box">
-                <span class="metric-val">2.2B</span>
-                <span class="metric-lbl">Tons of annual municipal waste by 2025</span>
+              <div class="step-card">
+                <span class="step-num">2</span>
+                <div>
+                  <h5>Localized Processing</h5>
+                  <p>Establishing anaerobic digesters for organic waste to produce biogas and fertilizer locally.</p>
+                </div>
+              </div>
+              <div class="step-card">
+                <span class="step-num">3</span>
+                <div>
+                  <h5>Upcycling & Repurposing</h5>
+                  <p>Creating regional industrial parks where one factory's waste is another's raw material.</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="right-col steps-flow">
-            <div class="step-card">
-              <span class="step-num">1</span>
-              <div>
-                <h5>Source Separation</h5>
-                <p>Mandating the separation of organics, dry recyclables, and hazardous wastes at source.</p>
-              </div>
+          <div class="right-col">
+            <div class="slide-image-container">
+              <img src="images/slide7_waste.png" class="slide-image" alt="Recycling station zero waste">
             </div>
-            <div class="step-card">
-              <span class="step-num">2</span>
-              <div>
-                <h5>Localized Processing</h5>
-                <p>Establishing anaerobic digesters for organic waste to produce biogas and fertilizer locally.</p>
+            <div class="metric-row">
+              <div class="metric-box">
+                <span class="metric-val">80%</span>
+                <span class="metric-lbl">Of waste is recyclable/compostable</span>
               </div>
-            </div>
-            <div class="step-card">
-              <span class="step-num">3</span>
-              <div>
-                <h5>Upcycling & Repurposing</h5>
-                <p>Creating regional industrial parks where one factory's waste is another's raw material.</p>
+              <div class="metric-box">
+                <span class="metric-val">2.2B</span>
+                <span class="metric-lbl">Tons of solid waste annually by 2025</span>
               </div>
             </div>
           </div>
@@ -280,85 +303,108 @@
               <li><strong>Green Envelopes:</strong> Mandating green roofs, vertical gardens, and vegetative facade elements on new developments.</li>
               <li><strong>Ecological Corridors:</strong> Interlinking public parks to allow wildlife movement and migration.</li>
             </ul>
-          </div>
-          <div class="right-col highlights-container">
-            <div class="eco-benefit-card">
-              <div class="benefit-header">
+            <div class="horizontal-eco-benefits">
+              <div class="eco-benefit-card-slim">
                 <i class="fa-solid fa-temperature-arrow-down benefit-icon"></i>
-                <h4>Urban Cooling</h4>
+                <div>
+                  <h4>Urban Cooling</h4>
+                  <p>Trees and vegetation lower surface temperatures by up to 2°C to 8°C.</p>
+                </div>
               </div>
-              <p>Trees and vegetation lower surface temperatures by up to <strong>2°C to 8°C</strong> through shading and evapotranspiration.</p>
-            </div>
-            <div class="eco-benefit-card">
-              <div class="benefit-header">
+              <div class="eco-benefit-card-slim">
                 <i class="fa-solid fa-heart-pulse benefit-icon"></i>
-                <h4>Mental & Physical Well-being</h4>
+                <div>
+                  <h4>Well-being</h4>
+                  <p>Access to public green space is proven to lower cortisol and cardiovascular risks.</p>
+                </div>
               </div>
-              <p>Access to public green space is proven to lower cortisol levels, reduce cardiovascular risks, and foster social cohesion.</p>
+            </div>
+          </div>
+          <div class="right-col">
+            <div class="slide-image-container">
+              <img src="images/slide8_greenspaces.png" class="slide-image" alt="Vertical forest skyscrapers">
             </div>
           </div>
         </div>
       </section>
 
       <!-- SLIDE 9: Smart Cities & Digital Governance -->
-      <section class="slide" id="slide-9" data-layout="grid">
-        <div class="slide-content glass-panel grid-layout">
-          <div class="header-area">
+      <section class="slide" id="slide-9" data-layout="split">
+        <div class="slide-content glass-panel split-layout">
+          <div class="left-col">
             <div class="badge"><i class="fa-solid fa-microchip"></i> Smart Tech</div>
             <h2 class="slide-title">Smart Infrastructure & Governance</h2>
             <p class="slide-lead">Using technology not just for surveillance, but to optimize resources and elevate civic participation.</p>
+            <div class="smart-list">
+              <div class="smart-list-item">
+                <i class="fa-solid fa-bolt-lightning smart-list-icon"></i>
+                <div>
+                  <h4>Smart Energy Grids</h4>
+                  <p>IoT-enabled grids that match power supply to real-time demand, prioritizing local renewables.</p>
+                </div>
+              </div>
+              <div class="smart-list-item">
+                <i class="fa-solid fa-truck-ramp-box smart-list-icon"></i>
+                <div>
+                  <h4>Responsive Logistics</h4>
+                  <p>Real-time traffic sensors route transit dynamically and schedule waste pick-ups.</p>
+                </div>
+              </div>
+              <div class="smart-list-item">
+                <i class="fa-solid fa-users-viewfinder smart-list-icon"></i>
+                <div>
+                  <h4>Inclusive e-Democracy</h4>
+                  <p>Mobile portals for participatory budgeting and localized hazard reporting.</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="smart-grid">
-            <div class="smart-card">
-              <div class="smart-header">
-                <i class="fa-solid fa-bolt-lightning s-icon"></i>
-                <h4>Smart Energy Grids</h4>
-              </div>
-              <p>IoT-enabled grids that match power supply to real-time demand, prioritizing local renewable generation.</p>
-            </div>
-            <div class="smart-card">
-              <div class="smart-header">
-                <i class="fa-solid fa-truck-ramp-box s-icon"></i>
-                <h4>Responsive Logistics</h4>
-              </div>
-              <p>Real-time traffic management sensors that route transit dynamically and schedule waste pickup only when bins are full.</p>
-            </div>
-            <div class="smart-card">
-              <div class="smart-header">
-                <i class="fa-solid fa-users-viewfinder s-icon"></i>
-                <h4>Inclusive e-Democracy</h4>
-              </div>
-              <p>Mobile portals for participatory budgeting and localized hazard reporting, ensuring citizen voices drive urban action.</p>
+          <div class="right-col">
+            <div class="slide-image-container">
+              <img src="images/slide9_smartcity.png" class="slide-image" alt="Smart city control room">
             </div>
           </div>
         </div>
       </section>
 
       <!-- SLIDE 10: Call to Action & Conclusion -->
-      <section class="slide" id="slide-10" data-layout="title">
-        <div class="slide-content glass-panel title-layout cta-layout">
-          <div class="badge"><i class="fa-solid fa-flag-checkered"></i> The Road Ahead</div>
-          <h2 class="main-title">A Vision for Tomorrow's Cities</h2>
-          <p class="slide-lead">Transitioning to sustainable urban habitats requires immediate, collaborative effort across all sectors of society.</p>
-          <div class="cta-actions-grid">
-            <div class="cta-action-box">
-              <i class="fa-solid fa-landmark"></i>
-              <h4>Policy Reform</h4>
-              <p>Aligning national urban policies with climate and biodiversity targets.</p>
-            </div>
-            <div class="cta-action-box">
-              <i class="fa-solid fa-hand-holding-dollar"></i>
-              <h4>Capital Mobilization</h4>
-              <p>Leveraging green municipal bonds and global adaptation finance.</p>
-            </div>
-            <div class="cta-action-box">
-              <i class="fa-solid fa-people-group"></i>
-              <h4>Citizen Ownership</h4>
-              <p>Empowering local neighborhoods to build and co-manage micro-projects.</p>
+      <section class="slide" id="slide-10" data-layout="split">
+        <div class="slide-content glass-panel split-layout">
+          <div class="left-col">
+            <div class="badge"><i class="fa-solid fa-flag-checkered"></i> The Road Ahead</div>
+            <h2 class="slide-title">A Vision for Tomorrow's Cities</h2>
+            <p class="slide-lead">Transitioning to sustainable urban habitats requires immediate, collaborative effort across all sectors of society.</p>
+            <div class="cta-list">
+              <div class="cta-item-slim">
+                <i class="fa-solid fa-landmark cta-list-icon"></i>
+                <div>
+                  <h4>Policy Reform</h4>
+                  <p>Aligning national urban policies with climate and biodiversity targets.</p>
+                </div>
+              </div>
+              <div class="cta-item-slim">
+                <i class="fa-solid fa-hand-holding-dollar cta-list-icon"></i>
+                <div>
+                  <h4>Capital Mobilization</h4>
+                  <p>Leveraging green municipal bonds and global adaptation finance.</p>
+                </div>
+              </div>
+              <div class="cta-item-slim">
+                <i class="fa-solid fa-people-group cta-list-icon"></i>
+                <div>
+                  <h4>Citizen Ownership</h4>
+                  <p>Empowering local neighborhoods to build and co-manage micro-projects.</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="divider"></div>
-          <p class="closing-quote">"The battle for sustainability will be won or lost in our cities." — UN Habitat</p>
+          <div class="right-col cta-image-col">
+            <div class="slide-image-container">
+              <img src="images/slide10_vision.png" class="slide-image" alt="Sustainable future city landscape">
+            </div>
+            <div class="divider"></div>
+            <p class="closing-quote">"The battle for sustainability will be won or lost in our cities." — UN Habitat</p>
+          </div>
         </div>
       </section>
 
